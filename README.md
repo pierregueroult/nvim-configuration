@@ -1,5 +1,5 @@
 ```
-    git clone https://github.com/pierregueroult/neovim-configuration.git ~/.config/nvim
+    git clone https://github.com/pierregueroult/nvim-configuration.git ~/.config/nvim
 ```
 
 ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
