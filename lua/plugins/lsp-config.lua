@@ -50,7 +50,7 @@ return {
       })
       vim.keymap.set("n", "<leader>ci", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>cd", vim.lsp.buf.definition, {})
-      vim.keymap.set("n", "<leader>gD", vim.lsp.buf.declaration, {})
+      vim.keymap.set("n", "<leader>cD", vim.lsp.buf.declaration, {})
       vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
     end,
   },

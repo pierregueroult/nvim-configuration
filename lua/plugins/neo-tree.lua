@@ -53,7 +53,7 @@ return {
         filtered_items = {
           hide_dotfiles = false,
           hide_gitignored = false,
-          never_show = { ".DS_Store", "thumbs.db", ".env", ".env.*", ".git", "node_modules", "vendor" },
+          never_show = { ".DS_Store", "thumbs.db",  ".git", "node_modules", "vendor" },
         },
       },
       window = { position = "right", width = 35 },
