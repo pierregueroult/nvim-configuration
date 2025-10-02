@@ -49,7 +49,7 @@ return {
     require("neo-tree").setup({
       filesystem = {
         hijack_netrw_behavior = "open_default",
-        window = { position = "right", width = 35 },
+        window = { position = "left", width = 35 },
         filtered_items = {
           hide_dotfiles = false,
           hide_gitignored = false,
@@ -60,6 +60,6 @@ return {
       sort_case_insensitive = true,
       sort_function = custom_sort,
     })
-    vim.keymap.set("n", "<leader>fv", ":Neotree filesystem reveal right<CR>")
+    vim.keymap.set("n", "<leader>fv", ":Neotree filesystem reveal left<CR>")
   end,
 }

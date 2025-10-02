@@ -43,3 +43,5 @@ vim.keymap.set("n", "<leader>wk", "<C-w>k", { desc = "Go to top split" })
 vim.keymap.set("n", "<leader>wq", "<C-w>q", { desc = "Close current split" })
 vim.keymap.set("n", "<leader>wx", "<cmd>only<CR>", { desc = "Close all other splits" })
 vim.keymap.set("n", "<leader>w=", "<C-w>=", { desc = "Equalize all splits" })
+
+
